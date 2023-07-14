@@ -193,28 +193,73 @@ img {
     height: 700px; */
 }
 
-aside {
-    display: grid;
-    grid-template: 500px / 50% 50%;
-}
-
 /* .extra {
     display: flex; 
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 } */
 
-.extra p{
-    font-size: 50px;
-    padding: 80px;
-    grid-area: 1 / 1 / span 1 / span 1;
+.extra {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
 }
 
-.extra img {
+.conoce {
+    /* width: 50%; */
+    font-size: 40px;
+    color: white;
+    max-height: 500px;
+    grid-area: 1 / 1 / span 1 / span 1;
+    align-self: center;
+    margin-left: 20px;
+   
+}
+
+.arrow {
+    grid-area: 2 / 1 / span 1 / span 1;
+    font-size: 40px;
+    color: white;
+    justify-self: center;
+    align-self: center;
+}
+
+.hair-cut {
+    /* background-image: url(https://www.hogarmania.com/archivos/202108/rapar-pelo-perro-portada-848x477x80xX.jpg);
+    background-position: center;
+    background-size: cover; */
+    grid-area: 1 / 2 / span 2 / span 1;
+    /* min-height: 300px;
+    min-width: 350px; */
+
+}
+
+/* .extra img {
     grid-area: 1 / 2 / span 1 / span 1;
-    width: 100%;
+    
     height: 100%;
+} */
+
+.feedback {
+    height: 300px;
+    display: flex;
+    justify-content: center !important;
+    background-color: #eee;
+    color: black !important;
+}
+
+.feedback .opinion {
+    margin-right: 200px;
+    font-size: 40px;
+}
+
+.feedback p {
+    align-self: center;
+}
+
+.feedback img {
+    border-radius: 50%;
+    height: 300px;
+    width: 350px;
 }
 
 footer {
@@ -276,6 +321,29 @@ footer {
     text-align: center;
 }
 
+@media (max-width: 1125px) {
+    .extra {
+        grid-template: 200px 450px / 1fr 1fr;
+    }
+
+    .conoce {
+        font-size: 30px;
+    }
+
+    .arrow {
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
+
+    .hair-cut {
+        grid-area: 2 / 1 / span 1 / span 2;
+    }
+
+    .feedback .opinion {
+        margin-right: 50px;
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 1000px) {
     footer { 
         grid-template: 1fr 4fr 1fr / 1fr 1fr 1fr;
@@ -304,7 +372,21 @@ footer {
     }
 }
 
+@media (max-width: 744px) {
+    .extra {
+        grid-template: 150px 350px / 1fr 1fr;
+    }
+
+    .conoce {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 544px) {
+    .feedback .opinion {
+       display: none;
+    }
+
     footer { 
         grid-template: 1fr 70% 1fr / 1fr 1fr 1fr;
     }
@@ -320,6 +402,14 @@ footer {
 }
 
 @media (max-width: 500px) {
+    .extra {
+        grid-template: 250px 250px / 1fr 1fr;
+    }
+
+    .conoce {
+        font-size: 20px;
+    }
+
     footer { 
         grid-template: 1fr 80% 1fr / 1fr 1fr 1fr;
     }
