@@ -10,11 +10,11 @@ Se usó HTML5, CSS y Bootstrap.
 
 * [1. Navbar](#1-navbar)
 * [2. Selector de páginas](#2-selector-de-páginas)
-* [3. ¿Qué construirás?](#3-qu%C3%A9-construir%C3%A1s)
-* [4. Objetivos de Aprendizaje](#4-objetivos-de-aprendizaje)
-* [5. Requisitos](#5-requisitos-y-entregables)
-* [6. Criterios de evaluación](#6-criterios-de-evaluaci%C3%B3n)
-* [7. Entregas](#7-entregas)
+* [3. Catálogo de productos](#3-catálogo-de-productos)
+* [4. Jumbotron](#4-jumbotron)
+* [5. Aside](#5-aside)
+* [6. Calificaciones de usuarios](#6-calificaciones-de-usuarios)
+* [7. Footer](#7-footer)
 
 ****
 
