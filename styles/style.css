@@ -7,6 +7,8 @@ body {
     background-color: #f86a0b !important; 
 }
 
+/* Navbar */
+
 .container-fluid {
     background-size: contain;
     background-position: 10px;
@@ -53,6 +55,8 @@ li .dropdown-item {
 main {
     background-color: #eee;
 }
+
+/* Selector de paginas perros - gatos */
 
 .page-selector {
     display: grid;
@@ -110,6 +114,8 @@ a {
         display: flex;
     }
 }
+
+/* Catálogo */
 
 h3,
 .products {
@@ -204,6 +210,8 @@ h6 a {
     color: #999 !important;
 }
 
+/* Jumbotron */
+
 .banner {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -235,6 +243,8 @@ img {
     position: relative;
 }
 
+/* Aside */
+
 .extra {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -264,6 +274,8 @@ img {
     grid-area: 1 / 2 / span 2 / span 1;
 }
 
+/* opiniones de usuarios */
+
 .feedback {
     height: 300px;
     display: flex;
@@ -286,6 +298,8 @@ img {
     height: 300px;
     width: 350px;
 }
+
+/* footer */
 
 footer {
     position: relative;
