@@ -37,9 +37,13 @@ li .dropdown-item {
 
 
 
-/* .navbar-brand {
+.navbar-brand {
     background-color: #f86a0b;
-} */
+}
+
+main {
+    background-color: #eee;
+}
 
 .page-selector {
     display: grid;
@@ -47,6 +51,7 @@ li .dropdown-item {
     justify-content: space-evenly;
     margin-top: 50px;
     padding-bottom: 114px;
+    background-color: #f86a0b;
 }
 
 .image {
@@ -167,12 +172,18 @@ h3 {
     background-color: #eee;
 }
 
+.btn {
+    background-color: #fc3503 !important;
+    border-color: #fc3503 !important;
+}
+
 h6 {
    /* padding-left: 100px; */
     display: flex;
     justify-content: flex-end;
-    background-color: #444;
-    
+    /* background-color: #444; */
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
 }
 
 h6 a {
@@ -199,6 +210,10 @@ h6 a {
    align-self: center;
 }
 
+.mail h1 {
+    justify-self: flex-end;
+}
+
 img {
     position: relative;
     /* width: 1600px;
@@ -214,6 +229,8 @@ img {
 .extra {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
+    background-color: #f86a0b;
+    background: linear-gradient(to top, #eee, 50%, #f86a0b);
 }
 
 .conoce {
@@ -224,7 +241,6 @@ img {
     grid-area: 1 / 1 / span 1 / span 1;
     align-self: center;
     margin-left: 20px;
-   
 }
 
 .arrow {
